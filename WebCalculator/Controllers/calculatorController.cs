@@ -11,6 +11,7 @@ namespace WebCalculator.Controllers
             return View(new Calculator());  
         }
 
+        // Post request handler
         [HttpPost]
         public ActionResult Index(Calculator calc, string calculate)
         {
